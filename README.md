@@ -1,4 +1,7 @@
-# AWholeNewNgWorld
+# kendo-for-angular-launch
+
+Sample application from Tara's section of this webinar https://www.youtube.com/watch?v=xBWd13f9A9c
+Please feel free to shoot us any questions in the meantime @KendoUI & @tzmanics# AWholeNewNgWorld
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 

@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<kendo-grid
+  [data]="gridView"
+  [pageSize]="pageSize"
+  [skip]="skip"
+  [pageable]="true"
+  [selectable]="true"
+  (pageChange)="pageChange($event)"
+  >
+  <kendo-grid-column field="name" title="Name">
+  </kendo-grid-column>
+  <kendo-grid-column field="height" title="Height">
+  </kendo-grid-column>
+  <kendo-grid-column field="birth_year" title="Birth Year">
+  </kendo-grid-column>
+  <kendo-grid-column field="skin_color" title="Skin Color">
+  </kendo-grid-column>
+</kendo-grid>
+
